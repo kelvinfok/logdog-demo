@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96EE2F6BEED555D1B20F9C0C /* Pods_logdog_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946CE10A3AA2035967692000 /* Pods_logdog_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DEA83B72E3B26A0000390F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DEA83A12E3B269F000390F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEA83A82E3B269F000390F6;
+			remoteInfo = "logdog-demo";
+		};
+		8DEA83C12E3B26A0000390F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DEA83A12E3B269F000390F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEA83A82E3B269F000390F6;
+			remoteInfo = "logdog-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1DCAFB91D99DA74EA1AE61 /* Pods-logdog-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logdog-demo.release.xcconfig"; path = "Target Support Files/Pods-logdog-demo/Pods-logdog-demo.release.xcconfig"; sourceTree = "<group>"; };
+		80F17D7A919D597F73F20F2D /* Pods-logdog-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logdog-demo.debug.xcconfig"; path = "Target Support Files/Pods-logdog-demo/Pods-logdog-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		8DEA83A92E3B269F000390F6 /* logdog-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "logdog-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEA83B62E3B26A0000390F6 /* logdog-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "logdog-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEA83C02E3B26A0000390F6 /* logdog-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "logdog-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946CE10A3AA2035967692000 /* Pods_logdog_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_logdog_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8DEA83AB2E3B269F000390F6 /* logdog-demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "logdog-demo";
+			sourceTree = "<group>";
+		};
+		8DEA83B92E3B26A0000390F6 /* logdog-demoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "logdog-demoTests";
+			sourceTree = "<group>";
+		};
+		8DEA83C32E3B26A0000390F6 /* logdog-demoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "logdog-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DEA83A62E3B269F000390F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EE2F6BEED555D1B20F9C0C /* Pods_logdog_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEA83B32E3B26A0000390F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEA83BD2E3B26A0000390F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F78CFA14F191B84B53F16A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F17D7A919D597F73F20F2D /* Pods-logdog-demo.debug.xcconfig */,
+				6D1DCAFB91D99DA74EA1AE61 /* Pods-logdog-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DEA83A02E3B269F000390F6 = {
+			isa = PBXGroup;
+			children = (
+				8DEA83AB2E3B269F000390F6 /* logdog-demo */,
+				8DEA83B92E3B26A0000390F6 /* logdog-demoTests */,
+				8DEA83C32E3B26A0000390F6 /* logdog-demoUITests */,
+				8DEA83AA2E3B269F000390F6 /* Products */,
+				40F78CFA14F191B84B53F16A /* Pods */,
+				FD6FEE2525A4A58CE01E8ABE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DEA83AA2E3B269F000390F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DEA83A92E3B269F000390F6 /* logdog-demo.app */,
+				8DEA83B62E3B26A0000390F6 /* logdog-demoTests.xctest */,
+				8DEA83C02E3B26A0000390F6 /* logdog-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6FEE2525A4A58CE01E8ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946CE10A3AA2035967692000 /* Pods_logdog_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DEA83A82E3B269F000390F6 /* logdog-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEA83CA2E3B26A0000390F6 /* Build configuration list for PBXNativeTarget "logdog-demo" */;
+			buildPhases = (
+				20ACD506CF5CF30ECF394CEC /* [CP] Check Pods Manifest.lock */,
+				8DEA83A52E3B269F000390F6 /* Sources */,
+				8DEA83A62E3B269F000390F6 /* Frameworks */,
+				8DEA83A72E3B269F000390F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8DEA83AB2E3B269F000390F6 /* logdog-demo */,
+			);
+			name = "logdog-demo";
+			productName = "logdog-demo";
+			productReference = 8DEA83A92E3B269F000390F6 /* logdog-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DEA83B52E3B26A0000390F6 /* logdog-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEA83CD2E3B26A0000390F6 /* Build configuration list for PBXNativeTarget "logdog-demoTests" */;
+			buildPhases = (
+				8DEA83B22E3B26A0000390F6 /* Sources */,
+				8DEA83B32E3B26A0000390F6 /* Frameworks */,
+				8DEA83B42E3B26A0000390F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DEA83B82E3B26A0000390F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8DEA83B92E3B26A0000390F6 /* logdog-demoTests */,
+			);
+			name = "logdog-demoTests";
+			productName = "logdog-demoTests";
+			productReference = 8DEA83B62E3B26A0000390F6 /* logdog-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DEA83BF2E3B26A0000390F6 /* logdog-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEA83D02E3B26A0000390F6 /* Build configuration list for PBXNativeTarget "logdog-demoUITests" */;
+			buildPhases = (
+				8DEA83BC2E3B26A0000390F6 /* Sources */,
+				8DEA83BD2E3B26A0000390F6 /* Frameworks */,
+				8DEA83BE2E3B26A0000390F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DEA83C22E3B26A0000390F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8DEA83C32E3B26A0000390F6 /* logdog-demoUITests */,
+			);
+			name = "logdog-demoUITests";
+			productName = "logdog-demoUITests";
+			productReference = 8DEA83C02E3B26A0000390F6 /* logdog-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DEA83A12E3B269F000390F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8DEA83A82E3B269F000390F6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8DEA83B52E3B26A0000390F6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8DEA83A82E3B269F000390F6;
+					};
+					8DEA83BF2E3B26A0000390F6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8DEA83A82E3B269F000390F6;
+					};
+				};
+			};
+			buildConfigurationList = 8DEA83A42E3B269F000390F6 /* Build configuration list for PBXProject "logdog-demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DEA83A02E3B269F000390F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8DEA83AA2E3B269F000390F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DEA83A82E3B269F000390F6 /* logdog-demo */,
+				8DEA83B52E3B26A0000390F6 /* logdog-demoTests */,
+				8DEA83BF2E3B26A0000390F6 /* logdog-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DEA83A72E3B269F000390F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEA83B42E3B26A0000390F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEA83BE2E3B26A0000390F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20ACD506CF5CF30ECF394CEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-logdog-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DEA83A52E3B269F000390F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEA83B22E3B26A0000390F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEA83BC2E3B26A0000390F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DEA83B82E3B26A0000390F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DEA83A82E3B269F000390F6 /* logdog-demo */;
+			targetProxy = 8DEA83B72E3B26A0000390F6 /* PBXContainerItemProxy */;
+		};
+		8DEA83C22E3B26A0000390F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DEA83A82E3B269F000390F6 /* logdog-demo */;
+			targetProxy = 8DEA83C12E3B26A0000390F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DEA83C82E3B26A0000390F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DEA83C92E3B26A0000390F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DEA83CB2E3B26A0000390F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F17D7A919D597F73F20F2D /* Pods-logdog-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "logdog-demo/logdog-demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.logdog-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DEA83CC2E3B26A0000390F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1DCAFB91D99DA74EA1AE61 /* Pods-logdog-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "logdog-demo/logdog-demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.logdog-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DEA83CE2E3B26A0000390F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.logdog-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logdog-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/logdog-demo";
+			};
+			name = Debug;
+		};
+		8DEA83CF2E3B26A0000390F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.logdog-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logdog-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/logdog-demo";
+			};
+			name = Release;
+		};
+		8DEA83D12E3B26A0000390F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.logdog-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "logdog-demo";
+			};
+			name = Debug;
+		};
+		8DEA83D22E3B26A0000390F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.logdog-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "logdog-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DEA83A42E3B269F000390F6 /* Build configuration list for PBXProject "logdog-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEA83C82E3B26A0000390F6 /* Debug */,
+				8DEA83C92E3B26A0000390F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEA83CA2E3B26A0000390F6 /* Build configuration list for PBXNativeTarget "logdog-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEA83CB2E3B26A0000390F6 /* Debug */,
+				8DEA83CC2E3B26A0000390F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEA83CD2E3B26A0000390F6 /* Build configuration list for PBXNativeTarget "logdog-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEA83CE2E3B26A0000390F6 /* Debug */,
+				8DEA83CF2E3B26A0000390F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEA83D02E3B26A0000390F6 /* Build configuration list for PBXNativeTarget "logdog-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEA83D12E3B26A0000390F6 /* Debug */,
+				8DEA83D22E3B26A0000390F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DEA83A12E3B269F000390F6 /* Project object */;
+}
